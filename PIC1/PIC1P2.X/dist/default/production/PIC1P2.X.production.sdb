@@ -1,0 +1,531 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"13 C:/Users/david/DavidU/ElectronicaDigital2/Librerias/conf16f887.X/OSCconfiguration.c
+[v _setupOsc setupOsc `(v  1 e 1 0 ]
+"56 C:/Users/david/DavidU/ElectronicaDigital2/Miniproyecto2/PIC1/PIC1P2.X/PIC1P2main.c
+[v _isr isr `II(v  1 e 1 0 ]
+"69
+[v _main main `(v  1 e 1 0 ]
+"134
+[v _configuracion configuracion `(v  1 e 1 0 ]
+"187
+[v _separar_numero separar_numero `(v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"13 I2Cconfiguration.c
+[v _initI2C_MASTER initI2C_MASTER `(v  1 e 1 0 ]
+"46
+[v _I2C_MW I2C_MW `(v  1 e 1 0 ]
+"56
+[v _I2C_sendAddress I2C_sendAddress `(v  1 e 1 0 ]
+"63
+[v _I2C_MR I2C_MR `(v  1 e 1 0 ]
+"80
+[v _I2C_MT I2C_MT `(v  1 e 1 0 ]
+"87
+[v _I2C_SCon I2C_SCon `(v  1 e 1 0 ]
+"94
+[v _I2C_STCon I2C_STCon `(v  1 e 1 0 ]
+"21 LCDcontrol.c
+[v _LCD_executeInstruction LCD_executeInstruction `(v  1 e 1 0 ]
+"29
+[v _LCD_clearDisplay LCD_clearDisplay `(v  1 e 1 0 ]
+"39
+[v _LCD_entryMode_set LCD_entryMode_set `(v  1 e 1 0 ]
+"50
+[v _LCD_displayOnOff LCD_displayOnOff `(v  1 e 1 0 ]
+"61
+[v _LCD_functionSet LCD_functionSet `(v  1 e 1 0 ]
+"82
+[v _LCD_setDDRAM LCD_setDDRAM `(v  1 e 1 0 ]
+"92
+[v _LCD_wRAM LCD_wRAM `(v  1 e 1 0 ]
+"117
+[v _initLCD initLCD `(v  1 e 1 0 ]
+"135
+[v _LCDprintText LCDprintText `(v  1 e 1 0 ]
+"29 USARTconfiguration.c
+[v _initUSARTransmitReceive initUSARTransmitReceive `(v  1 e 1 0 ]
+"50
+[v _USART_enableRInt USART_enableRInt `(v  1 e 1 0 ]
+"55
+[v _UARTprintCharacter UARTprintCharacter `(v  1 e 1 0 ]
+"166 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"290
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S824 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"369
+[u S833 . 1 `S824 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES833  1 e 1 @8 ]
+[s S136 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"482
+[s S145 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S150 . 1 `S136 1 . 1 0 `S145 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES150  1 e 1 @11 ]
+[s S27 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"553
+[u S35 . 1 `S27 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES35  1 e 1 @12 ]
+"843
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+[s S384 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"870
+[s S390 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S395 . 1 `S384 1 . 1 0 `S390 1 . 1 0 ]
+[v _SSPCONbits SSPCONbits `VES395  1 e 1 @20 ]
+[s S666 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"1068
+[s S675 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S679 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S682 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[u S685 . 1 `S666 1 . 1 0 `S675 1 . 1 0 `S679 1 . 1 0 `S682 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES685  1 e 1 @24 ]
+"1133
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1416
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1540
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+[s S363 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1557
+[u S372 . 1 `S363 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES372  1 e 1 @135 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S524 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"1718
+[u S532 . 1 `S524 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES532  1 e 1 @140 ]
+[s S790 . 1 `uc 1 SCS 1 0 :1:0 
+`uc 1 LTS 1 0 :1:1 
+`uc 1 HTS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+]
+"1882
+[s S796 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S801 . 1 `S790 1 . 1 0 `S796 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES801  1 e 1 @143 ]
+"1979
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+[s S500 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"1996
+[u S509 . 1 `S500 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES509  1 e 1 @145 ]
+"2048
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"2177
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+[s S411 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"2231
+[s S420 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S425 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DATA 1 0 :1:5 
+]
+[s S431 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S436 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S441 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S446 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[u S451 . 1 `S411 1 . 1 0 `S420 1 . 1 0 `S425 1 . 1 0 `S431 1 . 1 0 `S436 1 . 1 0 `S441 1 . 1 0 `S446 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES451  1 e 1 @148 ]
+[s S607 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2582
+[s S616 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S620 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S623 . 1 `S607 1 . 1 0 `S616 1 . 1 0 `S620 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES623  1 e 1 @152 ]
+"2642
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+[s S644 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"3352
+[u S653 . 1 `S644 1 . 1 0 ]
+[v _BAUDCTLbits BAUDCTLbits `VES653  1 e 1 @391 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+[s S22 variables 4 `uc 1 valor 1 0 `uc 1 centenas 1 1 `uc 1 decenas 1 2 `uc 1 unidades 1 3 ]
+"50 C:/Users/david/DavidU/ElectronicaDigital2/Miniproyecto2/PIC1/PIC1P2.X/PIC1P2main.c
+[v _temp temp `S22  1 e 4 0 ]
+"52
+[v _semaforo semaforo `uc  1 e 1 0 ]
+"69
+[v _main main `(v  1 e 1 0 ]
+{
+"101
+[v main@tempTxt tempTxt `[4]uc  1 a 4 20 ]
+"130
+} 0
+"187
+[v _separar_numero separar_numero `(v  1 e 1 0 ]
+{
+"188
+[v separar_numero@numaux numaux `i  1 a 2 11 ]
+[v separar_numero@numaux2 numaux2 `i  1 a 2 9 ]
+"187
+[v separar_numero@numero numero `i  1 p 2 4 ]
+[v separar_numero@centenas centenas `*.4uc  1 p 1 6 ]
+[v separar_numero@decenas decenas `*.4uc  1 p 1 7 ]
+[v separar_numero@unidades unidades `*.4uc  1 p 1 8 ]
+"202
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 9 ]
+[v ___awmod@counter counter `uc  1 a 1 8 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 3 ]
+[v ___awmod@dividend dividend `i  1 p 2 5 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 3 ]
+[v ___awdiv@dividend dividend `i  1 p 2 5 ]
+"41
+} 0
+"134 C:/Users/david/DavidU/ElectronicaDigital2/Miniproyecto2/PIC1/PIC1P2.X/PIC1P2main.c
+[v _configuracion configuracion `(v  1 e 1 0 ]
+{
+"185
+} 0
+"13 C:/Users/david/DavidU/ElectronicaDigital2/Librerias/conf16f887.X/OSCconfiguration.c
+[v _setupOsc setupOsc `(v  1 e 1 0 ]
+{
+[v setupOsc@freq freq `uc  1 a 1 wreg ]
+[v setupOsc@freq freq `uc  1 a 1 wreg ]
+[v setupOsc@clkSrc clkSrc `uc  1 p 1 3 ]
+[v setupOsc@freq freq `uc  1 a 1 5 ]
+"17
+} 0
+"29 USARTconfiguration.c
+[v _initUSARTransmitReceive initUSARTransmitReceive `(v  1 e 1 0 ]
+{
+[v initUSARTransmitReceive@BRGH BRGH `uc  1 a 1 wreg ]
+[v initUSARTransmitReceive@BRGH BRGH `uc  1 a 1 wreg ]
+[v initUSARTransmitReceive@BRG16 BRG16 `uc  1 p 1 3 ]
+[v initUSARTransmitReceive@vBRG vBRG `uc  1 p 1 4 ]
+[v initUSARTransmitReceive@BRGH BRGH `uc  1 a 1 5 ]
+"48
+} 0
+"117 LCDcontrol.c
+[v _initLCD initLCD `(v  1 e 1 0 ]
+{
+"131
+} 0
+"61
+[v _LCD_functionSet LCD_functionSet `(v  1 e 1 0 ]
+{
+[v LCD_functionSet@dataL dataL `uc  1 a 1 wreg ]
+[v LCD_functionSet@dataL dataL `uc  1 a 1 wreg ]
+[v LCD_functionSet@lineNo lineNo `uc  1 p 1 4 ]
+[v LCD_functionSet@dispFont dispFont `uc  1 p 1 5 ]
+[v LCD_functionSet@dataL dataL `uc  1 a 1 10 ]
+"68
+} 0
+"39
+[v _LCD_entryMode_set LCD_entryMode_set `(v  1 e 1 0 ]
+{
+[v LCD_entryMode_set@inc_dec inc_dec `uc  1 a 1 wreg ]
+[v LCD_entryMode_set@inc_dec inc_dec `uc  1 a 1 wreg ]
+[v LCD_entryMode_set@shift shift `uc  1 p 1 4 ]
+[v LCD_entryMode_set@inc_dec inc_dec `uc  1 a 1 6 ]
+"46
+} 0
+"50
+[v _LCD_displayOnOff LCD_displayOnOff `(v  1 e 1 0 ]
+{
+[v LCD_displayOnOff@on_off on_off `uc  1 a 1 wreg ]
+[v LCD_displayOnOff@on_off on_off `uc  1 a 1 wreg ]
+[v LCD_displayOnOff@cursor cursor `uc  1 p 1 4 ]
+[v LCD_displayOnOff@blink blink `uc  1 p 1 5 ]
+[v LCD_displayOnOff@on_off on_off `uc  1 a 1 9 ]
+"57
+} 0
+"29
+[v _LCD_clearDisplay LCD_clearDisplay `(v  1 e 1 0 ]
+{
+"35
+} 0
+"13 I2Cconfiguration.c
+[v _initI2C_MASTER initI2C_MASTER `(v  1 e 1 0 ]
+{
+[v initI2C_MASTER@freq freq `DCul  1 p 4 6 ]
+"26
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 1 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 3 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 7 ]
+"30
+} 0
+"50 USARTconfiguration.c
+[v _USART_enableRInt USART_enableRInt `(v  1 e 1 0 ]
+{
+"53
+} 0
+"135 LCDcontrol.c
+[v _LCDprintText LCDprintText `(v  1 e 1 0 ]
+{
+"136
+[v LCDprintText@i i `uc  1 a 1 0 ]
+"135
+[v LCDprintText@texto texto `*.26uc  1 p 2 7 ]
+"140
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"6
+[v strlen@cp cp `*.26DCuc  1 a 2 5 ]
+"4
+[v strlen@s s `*.26DCuc  1 p 2 3 ]
+"13
+} 0
+"92 LCDcontrol.c
+[v _LCD_wRAM LCD_wRAM `(v  1 e 1 0 ]
+{
+[v LCD_wRAM@data data `uc  1 a 1 wreg ]
+[v LCD_wRAM@data data `uc  1 a 1 wreg ]
+[v LCD_wRAM@data data `uc  1 a 1 5 ]
+"98
+} 0
+"82
+[v _LCD_setDDRAM LCD_setDDRAM `(v  1 e 1 0 ]
+{
+[v LCD_setDDRAM@address address `uc  1 a 1 wreg ]
+[v LCD_setDDRAM@address address `uc  1 a 1 wreg ]
+[v LCD_setDDRAM@address address `uc  1 a 1 5 ]
+"88
+} 0
+"21
+[v _LCD_executeInstruction LCD_executeInstruction `(v  1 e 1 0 ]
+{
+"25
+} 0
+"56 I2Cconfiguration.c
+[v _I2C_sendAddress I2C_sendAddress `(v  1 e 1 0 ]
+{
+[v I2C_sendAddress@address address `uc  1 a 1 wreg ]
+[v I2C_sendAddress@address address `uc  1 a 1 wreg ]
+[v I2C_sendAddress@RnW RnW `uc  1 p 1 3 ]
+"58
+[v I2C_sendAddress@address address `uc  1 a 1 5 ]
+"61
+} 0
+"94
+[v _I2C_STCon I2C_STCon `(v  1 e 1 0 ]
+{
+"99
+} 0
+"87
+[v _I2C_SCon I2C_SCon `(v  1 e 1 0 ]
+{
+"92
+} 0
+"80
+[v _I2C_MT I2C_MT `(v  1 e 1 0 ]
+{
+[v I2C_MT@data data `uc  1 a 1 wreg ]
+[v I2C_MT@data data `uc  1 a 1 wreg ]
+"82
+[v I2C_MT@data data `uc  1 a 1 3 ]
+"85
+} 0
+"63
+[v _I2C_MR I2C_MR `(v  1 e 1 0 ]
+{
+[v I2C_MR@reg reg `*.4uc  1 a 1 wreg ]
+[v I2C_MR@reg reg `*.4uc  1 a 1 wreg ]
+[v I2C_MR@ack ack `uc  1 p 1 3 ]
+"65
+[v I2C_MR@reg reg `*.4uc  1 a 1 5 ]
+"78
+} 0
+"46
+[v _I2C_MW I2C_MW `(v  1 e 1 0 ]
+{
+"54
+} 0
+"56 C:/Users/david/DavidU/ElectronicaDigital2/Miniproyecto2/PIC1/PIC1P2.X/PIC1P2main.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"65
+} 0
+"55 USARTconfiguration.c
+[v _UARTprintCharacter UARTprintCharacter `(v  1 e 1 0 ]
+{
+[v UARTprintCharacter@caracter caracter `uc  1 a 1 wreg ]
+[v UARTprintCharacter@caracter caracter `uc  1 a 1 wreg ]
+[v UARTprintCharacter@caracter caracter `uc  1 a 1 0 ]
+"58
+} 0
